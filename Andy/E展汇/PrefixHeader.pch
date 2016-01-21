@@ -45,4 +45,6 @@
 //可拖动按钮
 #include "RCDraggableButton.h"
 
+#import "UIView+Extension.h"
+
 #endif /* PrefixHeader_pch */

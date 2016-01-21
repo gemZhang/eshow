@@ -88,6 +88,7 @@
 		21FBFEA51C3F4099005ACE78 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21FBFEA41C3F4099005ACE78 /* 1.jpg */; };
 		21FBFEA71C3F5A18005ACE78 /* dian.png in Resources */ = {isa = PBXBuildFile; fileRef = 21FBFEA61C3F5A18005ACE78 /* dian.png */; };
 		21FBFEAB1C3F8BD8005ACE78 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBFEAA1C3F8BD8005ACE78 /* HMSegmentedControl.m */; };
+		88EF81381C50797600D912F1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EF81371C50797600D912F1 /* UIView+Extension.m */; };
 		A60F08D5BED323F572BD13D7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBBE0F3E39F78950E967C4D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -249,6 +250,8 @@
 		21FBFEA61C3F5A18005ACE78 /* dian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dian.png; sourceTree = "<group>"; };
 		21FBFEA91C3F8BD8005ACE78 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
 		21FBFEAA1C3F8BD8005ACE78 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		88EF81361C50797600D912F1 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		88EF81371C50797600D912F1 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		CCC1E475E2FBDA493681353D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EBBBE0F3E39F78950E967C4D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -637,6 +640,8 @@
 				214088161C3DF354005DD673 /* HUD.m */,
 				214088151C3DF354005DD673 /* MyController.h */,
 				214088171C3DF354005DD673 /* MyController.m */,
+				88EF81361C50797600D912F1 /* UIView+Extension.h */,
+				88EF81371C50797600D912F1 /* UIView+Extension.m */,
 			);
 			path = "战神Tools";
 			sourceTree = "<group>";
@@ -1028,6 +1033,7 @@
 				217ACD7D1C4F21DC00C2D6C9 /* ZhanHuiSection1TableViewCell.m in Sources */,
 				214088271C3E030C005DD673 /* ShouYe0Model.m in Sources */,
 				217ACD8F1C4F226600C2D6C9 /* ZhanHuiSection3Model.m in Sources */,
+				88EF81381C50797600D912F1 /* UIView+Extension.m in Sources */,
 				217ACD861C4F224E00C2D6C9 /* ZhanHuiSection0Model.m in Sources */,
 				2150C6991C4DC2DA00145173 /* RCDraggableButton.m in Sources */,
 			);
